@@ -28,7 +28,7 @@ spec:
   web:
     enabled: true
   tracing:
-    enabled: true
+    enabled: false
     namespace: od
   pki:
     keys:
@@ -39,4 +39,4 @@ spec:
             - tls.key
             - tls.crt
   imagePullSecrets:
-    - name: default-dockercfg-55nkv
+    - name: default-dockercfg-bqpx7
