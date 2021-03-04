@@ -28,8 +28,8 @@ spec:
   web:
     enabled: true
   tracing:
-    enabled: false
-    namespace: od
+    enabled: true
+    namespace: tracing
   pki:
     keys:
       - name: label1
