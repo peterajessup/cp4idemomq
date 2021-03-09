@@ -1,6 +1,6 @@
 # cp4idemomq
 
-This repository is to be used for creating an MQ Queue Manager on OCP, version 4.4.x, with IBM's Cloudpak for Integration Installed (verison 202.2.1 or higher).
+This repository is to be used for creating an MQ Queue Manager on OCP, version 4.4.x, with IBM's Cloudpak for Integration Installed (verison 2020.2.1 or higher).
 
 The artifacts include a BuildConfig, an MQ QueueManager Object Custom resource definition, a Dockerfile for the image build, and
 a route object associated with the channel created for access to the queue manager from outside the cluster.
