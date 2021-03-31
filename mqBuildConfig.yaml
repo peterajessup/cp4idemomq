@@ -12,7 +12,7 @@ spec:
     dockerStrategy:
       from:
         kind: "DockerImage"
-        name: "cp.icr.io/cp/ibm-mqadvanced-server-integration:9.2.0.0-r1-amd64"
+        name: "cp.icr.io/cp/ibm-mqadvanced-server-integration:9.2.2.0-r1-amd64"
       pullSecret:
         name: ibm-entitlement-key
   output:
