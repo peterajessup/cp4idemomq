@@ -39,4 +39,4 @@ spec:
             - tls.key
             - tls.crt
   imagePullSecrets:
-    - name: default-dockercfg-b976v
+    - name: default-dockercfg-9h9j5
