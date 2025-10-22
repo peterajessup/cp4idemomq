@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: iwhi-mqsc
+  name: mq2-mqsc
 data:
   ivt.mqsc: |
     DEFINE CHANNEL(TLSCONN) CHLTYPE(SVRCONN) SSLCIPH(ANY_TLS12_OR_HIGHER) CERTLABL('label1') SSLCAUTH (OPTIONAL) REPLACE
