@@ -6,10 +6,9 @@ metadata:
 spec:
   license:
     accept: true
-    license: L-RJON-BN7PN3
-    use: NonProduction
+    license: L-CYPF-CRPF3H
+    use: Production
   queueManager:
-    image: image-registry.openshift-image-registry.svc:5000/mq/mqivt:latest
     imagePullPolicy: Always
     storage:
       queueManager:
@@ -24,12 +23,9 @@ spec:
             - name: MQSNOAUT
               value: 'yes'
           name: qmgr
-  version: 9.2.2.0-r1
+  version: 9.4.4.0-r1
   web:
     enabled: true
-  tracing:
-    enabled: false
-    namespace: tracing
   pki:
     keys:
       - name: label1
@@ -38,5 +34,3 @@ spec:
           items:
             - tls.key
             - tls.crt
-  imagePullSecrets:
-    - name: default-dockercfg-9h9j5
