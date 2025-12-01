@@ -7,7 +7,7 @@ oc delete QueueManager mq2
 
 # Delete the route object and secret for the QueueManager keystore (if any), and the mqsc configMap
 oc delete route mq2route
-oc delete secret mqkey
+oc delete secret mq2key
 oc delete configMap mq2-mqsc
 
 set -e
