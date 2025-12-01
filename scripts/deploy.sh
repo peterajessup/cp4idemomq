@@ -13,7 +13,7 @@ oc delete configMap mq2-mqsc
 set -e
 # Create the route and the keystore secret and mqsc configMap
 oc apply -f mq2Route.yaml
-oc create secret tls mqkey --cert=./tls/tls.crt --key=./tls/tls.key
+oc create secret tls mq2key --cert=./tls/tls.crt --key=./tls/tls.key
 
 oc create -f mqsc/mqsc.yaml
 
