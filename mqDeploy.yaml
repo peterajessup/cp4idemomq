@@ -27,7 +27,7 @@ spec:
         items:
         - mq.ini
     name: qmgr
-  version: 9.4.4.0-r1
+  version: 9.4.1.1-r3
   web:
     enabled: true
   pki:
