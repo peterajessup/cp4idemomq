@@ -14,7 +14,7 @@ spec:
       queueManager:
         enabled: true
     availability:
-      type: SingleInstance
+      type: NativeHA
     name: QM1
     mqsc:
     - configMap:
