@@ -12,7 +12,7 @@
         "connection":
         [
           {
-            "host": "mq2-ibm-mq-qm-mq.apps.6924df42bdfb5535e56c30bd.ap1.techzone.ibm.com",
+            "host": "mq2-ibm-mq-qm-mq.<your-OCP-host-here>",
             "port": 443
           }
         ],
