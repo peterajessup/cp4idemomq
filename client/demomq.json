@@ -1,0 +1,30 @@
+{
+  "channel":
+  [
+    {
+      "general":
+      {
+        "description": "TLS CHANNEL for mq2"
+      },
+      "name": "TLSCONN",
+      "clientConnection":
+      {
+        "connection":
+        [
+          {
+            "host": "mq2-ibm-mq-qm-mq.apps.6924df42bdfb5535e56c30bd.ap1.techzone.ibm.com",
+            "port": 443
+          }
+        ],
+        "queueManager": "QM1"
+      },
+      "transmissionSecurity":
+      {
+        "cipherSpecification": "ANY_TLS12_OR_HIGHER",
+        "certificateLabel": "label1",
+        "certificatePeerName": ""
+      },
+      "type": "clientConnection"
+    }
+  ]
+}
